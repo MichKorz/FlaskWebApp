@@ -16,3 +16,6 @@ def getGalary():
     ]
     return render_template('galeria.html', obrazki=obrazki)
 
+@app.route('/memy')
+def memy():
+    return render_template('memy.html')
