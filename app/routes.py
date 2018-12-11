@@ -19,3 +19,7 @@ def getGalary():
 @app.route('/memy')
 def memy():
     return render_template('memy.html')
+
+@app.route('/alexa')
+def alexa():
+    return render_template('/alexa.html')
