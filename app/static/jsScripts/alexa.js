@@ -6,7 +6,7 @@ let ssu = new SpeechSynthesisUtterance;
 let glosy = [];
 
 function sluchaj(event){
-    alert('Przekarze to')
+    alert('Przekaze to')
     console.dir(event.results[0][0].transcript)
     alexaJobs(event.results[0][0].transcript)
 }
@@ -43,7 +43,7 @@ function alexaJobs(text){
 
 //Angielski
 
-     else if(text.includes("hello")){
+     else if(text.includes("play")){
         window.open('https://www.youtube.com/watch?v=kJQP7kiw5Fk', '_blank');
     }
 }
